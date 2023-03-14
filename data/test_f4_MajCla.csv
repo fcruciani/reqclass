@@ -1,0 +1,163 @@
+1,The application shall match the color of the schema set forth by Department of Homeland Security,LF,1,1
+2, If projected  the data must be readable.,US,2,5
+6, If projected  the data must be understandable.,US,4,5
+8,The product shall ensure that it can only be accessed by authorized users.,SE,5,4
+10,The product shall be intuitive and self-explanatory.,US,6,5
+11,:  90% of new users shall be able to start the display of Events or Activities within 90 minutes of using the product.,US,6,5
+25,The Disputes System shall provide update access capability for authorized users of the application.,F,19,0
+27,The Disputes System must provide the user the ability to initiate a single dispute case on multiple transactions that belong to a single merchant.,F,21,0
+29,As part of ticket retrieval creation process the system must prompt the user to enter all the required information to create the ticket retrieval request.,F,22,0
+32,The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio.,F,23,0
+36, The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.,F,25,0
+41,The confirmation must contain the following information; the dispute case number  the type of chargeback requested (pending or immediate)  and the date that the merchant response is due.,F,27,0
+43, The Disputes System shall accurately provide a list of possible reason codes for a given transaction.,F,29,0
+44,The list of possible reason codes must be derived based on the type of transaction and the industry that the merchant belongs to  according to the business rules defined for the Disputes System.,F,29,0
+45,The Disputes System must provide the ability to view existing dispute cases.,F,30,0
+52,The Disputes System shall provide the users the ability to view the history of all activities that have occurred on the dispute case.,F,33,0
+56,A detailed history of the actions taken on the case  including the date and the user that performed the action must be maintained for auditing purposes.,F,35,0
+60,Any disputes cases that have been closed for over 6 months must be purged from the online disputes database.,F,38,0
+62,The product must support Mozilla Firefox 1.0 and above.,O,40,2
+72,95% of Adjusters and Collision Estimators shall find the product easy to use.,US,48,5
+73,The product shall increase productivity of Collision Estimators.,US,49,5
+75,Users shall feel satisfied using the product.,US,50,5
+105,Users without the supervisor role cannot access the repair facility ratings.,SE,68,4
+106,Only collision estimators shall search for recycled parts.,SE,69,4
+108,Only valid data shall be entered into the system.,SE,70,4
+109,No invalid data shall be entered into the system.,SE,70,4
+111,The product shall free of computer viruses.,SE,72,4
+117, The vehicle data shall include vehicle year  make  and model,F,78,0
+124,The preferred repair facility shall be returned to the user.,F,85,0
+127,The estimator shall search for available recycled parts using a list of preferred parts suppliers.,F,88,0
+130,The system shall retain the available recycled parts and suppliers returned from the search.,F,91,0
+131,The available recycled parts information and their suppliers shall be returned to the user.,F,92,0
+135,The adjuster shall request a recycled parts audit of the collision estimate.,F,96,0
+138,The audit report shall include the total number of recycled parts used in the estimate.,F,99,0
+144,The user shall select to view the preferred repair facility ratings.,F,105,0
+145,The current repair facility ratings shall be displayed to the user.,F,106,0
+153,The product will function alongside server software on any operating system where the Java runtime can be installed.,O,114,2
+155,The DBMS may be located on the same machine as the product or on a separate machine residing on the same computer network.,O,115,2
+159, The product is Look and Feel shall be able to incorporate aspects of the customer is organization such as logo  branding  and identity,LF,118,1
+164,90% of users will be able to successfully reserve a conference room within 5 minutes of product use.,US,121,5
+166,80% of the users surveyed report that the product accurately confirms their actions.,US,122,5
+168,The product shall allow for customization of start page and views preferences.,US,124,5
+169, An employee will be able to successfully use the product within a few minutes.,US,125,5
+186,The product must be able to interface with any HTML browser.,O,136,2
+187,The product shall transmit data between the user and the product without problems.,O,136,2
+190,The product shall communicate successfully with the database management system on 100% of all transactions.,O,137,2
+197,90% of new users are able to log into the system within 10 minutes.,US,142,5
+204,Every registered user will have access to the product is support site via the Internet.,US,146,5
+205,70% of registered users shall find a solution to their problem within 5 minutes of using the support site.,US,146,5
+209,For each emerging target market  it shall take no more than 5 days to configure the product for that market is language.,US,148,5
+214,100% of all logons shall be by either company employees or external users with company-approved user IDs.,SE,151,4
+215,Only managers are able to perform search queries for reservations by user.,SE,152,4
+217,The product shall ensure that the database is data corresponds to the data entered by the user.,SE,153,4
+220,The product and/or adjacent hardware/software systems i data shall remain 100% uncorrupted each time malicious data is input into the product.,SE,154,4
+227,The product shall be able to display calendar dates and times according to the user is locale.,US,158,5
+228,90% of survey respondents from each target market country will find that the date and time formatting of the product is correct.,US,158,5
+229,The product must be developed with the J2SE/J2EE programming language libraries,O,159,2
+234,The product will record meeting acknowledgements.,F,164,0
+236,The product shall update existing conference rooms.,F,166,0
+238,The product shall be able to store new room equipment.,F,168,0
+242, Each time a conference room is reserved  the conference room schedule shall be updated to reflect the time and date of the reservation.,F,172,0
+248,The product shall display conference rooms according to search parameters.,F,178,0
+250,The product shall record all the equipment that has been reserved.,F,180,0
+254,The product shall have a customizable Look and Feel.,F,184,0
+255,The product shall have an intuitive user interface.,F,185,0
+257,Recreation of Inventory Quantity Adjustment for the period of previous 30 days shall take no more than 30min.,PE,187,3
+260,The System shall be able to automatically backup business data and restore them on demand.,O,190,2
+262,Any changes in user passwords and/or permissions should take affect in all parts of the System.,SE,191,4
+269,The System shall allow on demand generation of all Inventory Quantity Adjustment documents since certain point of time.,F,196,0
+270,The IQA subsystem shall take into account current inventory status and adjust inventory of substitutionary ingredients accordingly.,F,197,0
+273,Product formula ingredients shall allow defining substitutionary ingredients.,F,200,0
+276, Product shall allow entering  storing and modifying product menus used by POS terminals.,F,203,0
+288, System shall let customers cancel their account  process shall take no longer than 2 minutes.,PE,215,3
+294,System shall let the administrator add/remove categories on the website in under 5 minutes.,PE,218,3
+296,System shall let administrators generate unique pre-paid pins in under 2 minutes and generate an Excel file with the generated PINs.,PE,220,3
+302,The product should be able to be used by 90% of novice users on the Internet.,US,224,5
+303, Users should only have to navigate through a maximum of 4 pages  to create an account with the website.,US,225,5
+305,An anonymous survey will show that 70% of customers are comfortable purchasing streaming movies after 2 weeks using the website.,US,227,5
+309,Customers should be able to purchase and watch a pre-determined movie in under 3 minutes.,US,230,5
+310,The product shall use symbols and words that are naturally understandable by users familiar with websites,US,231,5
+315, While streaming a movie  buffering should only occur if there is latency in the user is connection.,PE,236,3
+333,Movies shall be encoded and streamed via Windows Media Player 9.0.,O,253,2
+339,The website will provide a help section with answers and solutions to common problems.,US,259,5
+344,Only authorized personnel can access customer records in the database.,SE,264,4
+348, The website shall protect itself from intentional abuse  and notify the administrator at all occurrences.,SE,268,4
+363, The website will allow customers to search for movies by title  actor  or director.,F,283,0
+364, viewing a movie details  the website will display the movies description  actor  and director entered in by the administrator.,F,284,0
+371,System will allow customers to pay for a streaming movie with a pre-paid card.,F,291,0
+378,Website must be able to support free trial periods with various parameters set by the Izogn Manager.,F,298,0
+379, All streaming movie sales will be logged in the database  and accessible by the administrator.,F,299,0
+380, All registered customer information shall be stored and maintained in the database  even after the customer cancels their account.,F,300,0
+384,No lead evaluation will complete in a time period longer than 25 seconds for 97% of all leads processed.,PE,304,3
+385,For leads that process longer than 25 seconds the system will record the event and duration,PE,305,3
+395,The leads washing functionality will insert all leads captured by the web service.,F,315,0
+400,The leads washing functionality will use the parameters supplied by corporate and schools to score part of the lead.,F,320,0
+405,Prior to submitting the lead to the enterprise system the leads washing functionality will assign the lead to an admissions rep.,F,325,0
+406,The leads washing functionality shall receive a period list of available reps from the enterprise system.,F,326,0
+408,The product shall display the grids within a circle as a view from a periscope.,LF,328,1
+409,The product shall display each type of ship in a grid using an image of the specific type of ship.,LF,329,1
+415,The product shall able to handle a large number of games simultaneously.,PE,335,3
+419,The product shall provide players no access to information that might reveal the identity of another player.,PE,337,3
+420,The product shall be intuitive and self-explanatory.,US,338,5
+423,The product shall allow the user to select the language upon accessing the product.,US,339,5
+426,The response time shall be no more than 2 seconds for 95% of responses and no more than 4% for the remaining responses.,PE,341,3
+428,The product shall allow a user to identify himself or herself as a player.,F,343,0
+433,The product shall allow a player to initiate a game by selecting another available player from the list of players.,F,348,0
+434, Once a game is initiated  the product shall display a defensive grid to each player,F,349,0
+437, Once a game is initiated  the product shall allow each player to position their 5 ships on their respective defensive grids.,F,352,0
+438,The product shall allow a player to position ships horizontally on their grid.,F,353,0
+442, When both players have positioned their 5 ships on their defensive grids  the product shall define the status of each player for the first turn.,F,357,0
+449, For each shot  the product shall mark the shot as a hit or miss on the defensive grid of the defensive player.,F,364,0
+450, For each shot  the product shall mark the shot as a hit or miss on the offensive grid of the offensive player.,F,365,0
+460,The product shall allow a player to end a game at any time during the game.,F,375,0
+467,Callers and supervisors must be able to accomplish any system task within 2 minutes.,US,380,5
+473,On a 112k connection or faster  the system response time for all operations must be no more than 3 seconds 90% of the time.,PE,384,3
+477,The product shall ensure that only supervisors can advertise empty time slots.The product must ensure that supervisors are allowed to access advertise empty time slots.,SE,388,4
+480,The interface shall have a simple look.,LF,391,1
+486,The product shall provide Monitoring Services.The product shall be easy for System Administrators and DBAs to use after two weeks of usage.,US,395,5
+509,The system shall use IBM and CCR branding standards.,LF,415,1
+512,The system interface shall be formatted to display at 800 by 600 pixel resolution.,LF,416,1
+513,The system interface will use CCR nomenclature.,LF,417,1
+514,The system must use the same nomenclature used in the existing WCS system and reports,LF,417,1
+529,All interfaces and reports will undergo usability tests by CCR users.,US,424,5
+542,The system shall only be accessed by authorized Corporate Community Grants (CCR) employees.,SE,432,4
+553,Users shall be able to reach the  iadd i   idrop i  and  itrade player i pages with one click from the team owner is page.,US,440,5
+560,The Disputes application shall support 350 concurrent users without any degradation of performance in the application.,PE,447,3
+561, The Disputes application shall be available 24x7x365  with the exception of the following scheduled maintenance windows.,O,448,2
+574,The product shall produce search results in an acceptable time,PE,458,3
+591,90% of untrained realtors shall be able to install the product on their device without printed instructions,US,474,5
+593,Only registered realtors shall be able to access the system.,SE,476,4
+604,The system shall able to operate within a business office environment typical of the Nursing Department at DePaul University.,O,487,2
+605,The system shall be used within the specifications defined by the computers used by the Program Administrators/Nursing Staff Members.,O,488,2
+606,A secondary database will be used to store historical statistics and data.,O,489,2
+607,The system shall be able to call the seller or buyer to schedule an appointment,F,490,0
+609,The realtor shall be able to retrieve a map showing property locations for a specified area,F,492,0
+612,The system shall be easy to use by the Program Administrators/Nursing Staff Members.,US,495,5
+613,All of the users shall be able to use the system after one day of training.,US,496,5
+630,Only authorized users shall have access to students i personal information.,SE,513,4
+631,Dr Susan Poslusny and Dr Julie Donalek are the only people who shall have access to students i personal information.,SE,514,4
+633,Fit Criterion: Dr Susan Poslusny and Karen Sysol are the only people who shall have access to the final class section scheduling for the system that interfaces with CampusConnect.,SE,516,4
+645,Program Administrators and Nursing Staff Members shall be able to add new classes to a sequence of classes,F,528,0
+649,The system shall link Events back to either the Sync Matrix 1.0 or the Exercise Managment Tool 1.0 applications for modifications.,F,532,0
+656,The system shall provide charts for the Activity or Event actual versus assumed time.,F,539,0
+660,98% of the user workstations shall meet the minimum hardware requirements prior to implementation.,O,541,2
+661,Minimum Hard Disk Space:  400MB.,O,541,2
+663,Microsoft .NET Framework 1.1.,O,542,2
+668,"Test files (7) shall be loaded up to 5 times throughout the year  from the BDW.""",O,543,2
+677,The product must comply with the intranet page standards and requirements of ENET Securities.,LF,548,1
+688,The system will use the stored e-mail addresses as a primary means of communicating information to affected parties.,F,552,0
+689, The system will notify affected parties for routine communication purposes  including but not limited to informing students of upcoming offered classes (timeline) and what their schedule will be/shall be.,F,553,0
+690, The system will notify affected parties when changes occur affecting clinicals  including but not limited to clinical section capacity changes  and clinical section cancellations.,F,554,0
+693, The display shall have two regions:  left 2/3 of the display is graphical  right 1/3 of the display is a data table,F,557,0
+694,The data displayed in both the nodes within the graph and the rows in the table are MSEL Summary data,F,558,0
+696,The top 1/4 of the table will hold events that are to occur sequentially.,F,560,0
+699,The system shall provide a history report of changes made to the Activity or Event data,F,563,0
+702,The system shall update or create new property listings in the MLS,F,566,0
+709, A clinical class shall specify the course name  lecture room requirements  clinical site needs  lecture instructor needs  and clinical lab instructor needs.,F,573,0
+713,The system shall be able to display a report of needed classes for a given quarter for all cohorts of all programs for Program Administrators/Nursing Staff Members� planning purposes.,F,577,0
+722,The system shall allow a Program Administrator/Nursing Staff Member to move a student from one clinical lab section to another clinical lab section corresponding to the same clinical class.,F,586,0
+724,A Program Administrator/Nursing Staff Member shall be able to add a new nursing student to the system.,F,588,0
+725, A staff member shall have the ability to manage the progress of a part time student  which includes modifying their sequence of classes and timeline of classes.,F,589,0
+726, The system shall be able to display a printable summary for individual cohorts  which will include the students enlisted  the Program of study  sequence of classes  cohort progress through the program  and timeline of completion.,F,590,0
+728, The system shall be able to display a printable summary for individual clinical labs  which will include (but not be limited to) class name  class number  lab section  listing of students enrolled  instructor  day(s)  time  and location.,F,592,0
