@@ -1,5 +1,5 @@
-# reqclass
-Requirements Classification
+# Requirements Classification 
+Requirements Classification using PROMISE-NFR dataset.
 
 
 Citation Request:
