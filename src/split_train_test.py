@@ -1,14 +1,9 @@
 from PROMISE_NFR_dataset_loader import PROMISE_NFR_dataset as Promise
-#from nlp_datasets import CNN_1D_SimpleGLoveEncoder as CNNEncoder
+
 import numpy as np
 import pandas as pd
 pd.set_option('display.max_columns', None) #prevents trailing elipses
 pd.set_option('display.max_rows', None)
-#from keras.utils import to_categorical
-#import RML_Classifiers as RML
-#from RML_Classifiers import basepath
-#MAX_SENTENCE_LENGTH = 1
-#WORD_EMBEDDING_SIZE = 50
 
 print("PREPROCESSING DATA")
 promise = Promise()
@@ -56,7 +51,7 @@ print(most_frequent_classes)
 
 all_classes = np.unique(req_classes_df['Label'].values)
 print(all_classes)
-input("pause")
+
 req_indeces = req_classes_df['Req Number'].values 
 req_classes = req_classes_df['Label'].values
 
@@ -98,5 +93,5 @@ for fold in ["1","2","3","4","5"]:
     print("Test #: ",len(test_df))
 
     #whole_df = pd.DataFrame(zipped, columns=[ 'Label', 'Req Number'])
-    train_df.to_csv("./data/train_f"+fold+"_MajCla.csv",header=False,index=True)
-    test_df.to_csv("./data/test_f"+fold+"_MajCla.csv",header=False,index=True)
+    train_df.to_csv("../data/train_f"+fold+"_MajCla.csv",header=False,index=True)
+    test_df.to_csv("../data/test_f"+fold+"_MajCla.csv",header=False,index=True)
